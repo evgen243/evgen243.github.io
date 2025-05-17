@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-12T16:05:42+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Блог</title><subtitle>Пишите здесь статьи и заметки для вашего нового сайта. Вы можете отредактировать эту строку в _config.yml.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2024/03/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-03-09T00:00:00+12:00</published><updated>2024-03-09T00:00:00+12:00</updated><id>http://localhost:4000/blog/2024/03/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2024/03/09/welcome-to-jekyll.html"><![CDATA[<p>This is a post</p>
+
+<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[This is a post]]></summary></entry><entry><title type="html">Podcast Post</title><link href="http://localhost:4000/podcast/2024/03/09/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="Podcast Post" /><published>2024-03-09T00:00:00+12:00</published><updated>2024-03-09T00:00:00+12:00</updated><id>http://localhost:4000/podcast/2024/03/09/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/podcast/2024/03/09/welcome-to-jekyll-copy.html"><![CDATA[<p>This is a post</p>
+
+<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="podcast" /><summary type="html"><![CDATA[This is a post]]></summary></entry><entry><title type="html">wget</title><link href="http://localhost:4000/blog/2022/11/18/wget.html" rel="alternate" type="text/html" title="wget" /><published>2022-11-18T00:00:00+12:00</published><updated>2022-11-18T00:00:00+12:00</updated><id>http://localhost:4000/blog/2022/11/18/wget</id><content type="html" xml:base="http://localhost:4000/blog/2022/11/18/wget.html"><![CDATA[<h3 id="опции">Опции:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-V (--version) - вывести версию программы
+-h (--help) - вывести справку
+-b (--background) - работать в фоновом режиме
+-o файл (--out-file) - указать лог файл
+-d (--debug) - включить режим отладки
+-v (--verbose) - выводить максимум информации о работе утилиты
+-q (--quiet) - выводить минимум информации о работе
+-i файл (--input-file) - прочитать URL из файла
+--force-html - читать файл указанный в предыдущем параметре как html
+-t (--tries) - количество попыток подключения к серверу
+-O файл (--output-document) - файл в который будут сохранены полученные данные
+-с (--continue) - продолжить ранее прерванную загрузку
+-S (--server-response) - вывести ответ сервера
+--spider - проверить работоспособность URL
+-T время (--timeout) - таймаут подключения к серверу
+--limit-rate - ограничить скорость загрузки
+-w (--wait) - интервал между запросами
+-Q (--quota) - максимальный размер загрузки
+-4 (--inet4only) - использовать протокол ipv4
+-6 (--inet6only) - использовать протокол ipv6
+-U (--user-agent)- строка USER AGENT отправляемая серверу
+-r (--recursive)- рекурсивная работа утилиты
+-l (--level) - глубина при рекурсивном сканировании
+-k (--convert-links) - конвертировать ссылки в локальные при загрузке страниц
+-P (--directory-prefix) - каталог, в который будут загружаться файлы
+-m (--mirror) - скачать сайт на локальную машину
+-p (--page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы ____________________________
+</code></pre></div></div>
+
+<h4 id="1-загрузка-файла">1. Загрузка файла:</h4>
+
+<p>Команда <strong>wget linux</strong> скачает один файл и сохранит его в текущей директории. Во время загрузки мы 
+увидим прогресс, размер файла, дату его последнего изменения, а также скорость загрузки:</p>
+
+<blockquote>
+  <p>wget http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="2-сохранить-файл-с-другим-именем">2. Сохранить файл с другим именем:</h4>
+
+<p>Опция <strong><em>-О</em></strong> позволяет задать имя сохраняемому файлу, например, скачать файл <strong>wget</strong> с именем 
+<strong>wget.
+zip</strong>:</p>
+
+<blockquote>
+  <p>wget -O wget.zip http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="3-скачать-несколько-файлов">3. Скачать несколько файлов:</h4>
+
+<p>Вы можете скачать несколько файлов одной командой даже по разным протоколам, просто указав их 
+<strong>URL</strong>:</p>
+
+<blockquote>
+  <p>wget http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz ftp://ftp.gnu.org/gnu/wget/wget-1.10.1.tar.
+gz.sig</p>
+</blockquote>
+
+<h4 id="4-взять-url-из-файла">4. Взять <strong>URL</strong> из файла:</h4>
+
+<p>Вы можете сохранить несколько<strong>URL</strong> в файл, а затем загрузить их все, передав файл опции <strong><em>-i</em></strong>. 
+Например создадим файл tmp.txt, со ссылками для загрузки <strong>wget</strong>, а затем скачаем его:</p>
+
+<blockquote>
+  <p>wget -i /wget/tmp.txt</p>
+</blockquote>
+
+<h4 id="5-продолжить-загрузку">5. Продолжить загрузку:</h4>
+
+<p>Утилита <strong><em>wget linux</em></strong> рассчитана на работу в медленных и нестабильных сетях. Поэтому если вы 
+загружали большой файл, и во время загрузки было потеряно соединение, то вы можете скачать файл 
+<strong><em>wget</em></strong> с помощью опции <strong><em>-c</em></strong>.</p>
+
+<blockquote>
+  <p>wget -c http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="6-загрузка-файлов-в-фоне">6. Загрузка файлов в фоне:</h4>
+
+<p>Опция <strong><em>-b</em></strong> заставляет программу работать в фоновом режиме, весь вывод будет записан в лог файл, 
+для настройки лог файла используются специальные ключи wget:</p>
+
+<blockquote>
+  <p>wget -b -o ~/wget.log http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="7-ограничение-скорости-загрузки">7. Ограничение скорости загрузки:</h4>
+
+<p>Команда <strong>wget linux</strong> позволяет не только продолжать загрузку файлов, но и ограничивать скорость 
+загрузки. Для этого есть опция –limit-rate. Например ограничим скорость до 100 килобит:</p>
+
+<blockquote>
+  <p>wget –limit-rate=100k ftp://ftp.iinet.net.au/debian/debian-cd/8.4.0/amd64/iso-dvd/debian-8.4.
+0-amd64-DVD-1.iso</p>
+</blockquote>
+
+<h4 id="9-загрузить-и-выполнить">9. Загрузить и выполнить:</h4>
+
+<p>Вы, наверное, уже видели такие команды. wget позволяет сразу же выполнять скачанные скрипты:</p>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>wget -O - http://сайт/скрипт.sh</td>
+        <td>bash</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>Если опции <strong><em>-O</em></strong> не передать аргументов, то скачанный файл будет выведен в стандартный вывод, 
+затем 
+мы его можем перенаправить с интерпретатор bash, как показано выше.</p>
+
+<h4 id="10-сохранить-файл-в-папке">10. Сохранить файл в папке:</h4>
+
+<p>По умолчанию wget сохраняет файл в текущую папку, но это поведение очень легко изменить с 
+ помощью опции <strong><em>-P</em></strong>:</p>
+
+<blockquote>
+  <p>wget -P ~/Downloads/ http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="11-скачать-сайт">11. Скачать сайт:</h4>
+
+<p><strong>Wget</strong> позволяет не только скачивать одиночные файлы, но и целые сайты, чтобы вы могли их потом 
+просматривать в офлайне. Использование wget, чтобы скачать сайт в <strong>linux</strong> выглядит вот так:</p>
+
+<blockquote>
+  <p>wget –mirror -p –convert-links -P ./<Local-Folder> аддресс_сайт
+________________________________________________________________________________________________</Local-Folder></p>
+</blockquote>
+
+<p>Чтобы скачать сайт целиком с помощью wget нужно выполнить команду:</p>
+
+<blockquote>
+  <p>http://site.com/</p>
+</blockquote>
+
+<p>После выполнения данной команды в директорию site.com будет загружена локальная копия сайта 
+ <strong><em>http://site.com</em></strong>. Чтобы открыть главную страницу сайта нужно открыть файл<strong><em>index.html</em></strong>.
+Рассмотрим используемые параметры:</p>
+
+<blockquote>
+  <p>-r	—	указывает на то, что нужно рекурсивно переходить по ссылкам на сайте, чтобы скачивать 
+ страницы.</p>
+</blockquote>
+
+<blockquote>
+  <p>-k	—	используется для того, чтобы wget преобразовал все ссылки в скаченных файлах таким 
+ образом, чтобы по ним можно было переходить на локальном компьютере (в автономном режиме).</p>
+</blockquote>
+
+<blockquote>
+  <p>-p	—	указывает на то, что нужно загрузить все файлы, которые требуются для отображения 
+ страниц (изображения, css и т.д.).</p>
+</blockquote>
+
+<blockquote>
+  <p>-l	—	определяет максимальную глубину вложенности страниц, которые wget должен скачать (по 
+  умолчанию значение равно 5, в примере мы установили 7). В большинстве случаев сайты имеют 
+  страницы с большой степенью вложенности и wget может просто «закопаться», скачивая новые 
+ страницы. Чтобы этого не произошло можно использовать параметр -l.</p>
+</blockquote>
+
+<blockquote>
+  <p>-E	—	добавлять к загруженным файлам расширение .html.</p>
+</blockquote>
+
+<blockquote>
+  <p>-nc	—	при использовании данного параметра существующие файлы не будут перезаписаны. Это 
+ удобно, когда нужно продолжить загрузку сайта, прерванную в предыдущий раз.</p>
+</blockquote>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Опции: -V (--version) - вывести версию программы -h (--help) - вывести справку -b (--background) - работать в фоновом режиме -o файл (--out-file) - указать лог файл -d (--debug) - включить режим отладки -v (--verbose) - выводить максимум информации о работе утилиты -q (--quiet) - выводить минимум информации о работе -i файл (--input-file) - прочитать URL из файла --force-html - читать файл указанный в предыдущем параметре как html -t (--tries) - количество попыток подключения к серверу -O файл (--output-document) - файл в который будут сохранены полученные данные -с (--continue) - продолжить ранее прерванную загрузку -S (--server-response) - вывести ответ сервера --spider - проверить работоспособность URL -T время (--timeout) - таймаут подключения к серверу --limit-rate - ограничить скорость загрузки -w (--wait) - интервал между запросами -Q (--quota) - максимальный размер загрузки -4 (--inet4only) - использовать протокол ipv4 -6 (--inet6only) - использовать протокол ipv6 -U (--user-agent)- строка USER AGENT отправляемая серверу -r (--recursive)- рекурсивная работа утилиты -l (--level) - глубина при рекурсивном сканировании -k (--convert-links) - конвертировать ссылки в локальные при загрузке страниц -P (--directory-prefix) - каталог, в который будут загружаться файлы -m (--mirror) - скачать сайт на локальную машину -p (--page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы ____________________________]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/wget.png" /><media:content medium="image" url="http://localhost:4000/assets/wget.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fish</title><link href="http://localhost:4000/blog/2022/11/16/fish.html" rel="alternate" type="text/html" title="Fish" /><published>2022-11-16T00:00:00+12:00</published><updated>2022-11-16T00:00:00+12:00</updated><id>http://localhost:4000/blog/2022/11/16/fish</id><content type="html" xml:base="http://localhost:4000/blog/2022/11/16/fish.html"><![CDATA[<p>#fish #shell</p>
+
+<h4 id="установите-fish-в-качестве-оболочки-по-умолчанию">Установите Fish в качестве оболочки по умолчанию</h4>
+
+<p>Если вам понравилась эта оболочка, вы можете установите его в качестве оболочки по умолчанию. Для этого используйте команду chsh:</p>
+
+<ul>
+  <li>chsh -s /usr/bin/fish</li>
+</ul>
+
+<p>здесь, / usr / bin / fish Это путь к fish.</p>
+
+<p>Если вы не знаете правильный путь, вам поможет следующая команда:</p>
+
+<ul>
+  <li>which fish</li>
+</ul>
+
+<p>По завершении выйдите из системы и перезапустите Sesion чтобы использовать новую оболочку по умолчанию.</p>
+
+<p><em>Запомнить некоторые скрипты, написанные для Bash, могут быть не полностью совместимы с Fish.</em></p>
+
+<p>Если вы хотите вернуться к Bash, просто запустите:</p>
+
+<ul>
+  <li>bash</li>
+</ul>
+
+<p>Если вы хотите, чтобы Bash постоянно использовался в качестве оболочки по умолчанию, запустите:</p>
+
+<ul>
+  <li>chsh -s /bin/bash</li>
+</ul>
+
+<h4 id="применение">Применение</h4>
+
+<p>Чтобы переключиться на оболочку fish из вашей оболочки по умолчанию, вам нужно просто ввести в терминале команду:</p>
+
+<ul>
+  <li>fish</li>
+</ul>
+
+<p>Вы можете найти конфигурацию fish, вот по такому пути ~/.config/fish/config.fish (аналогично .bashrc). Если этого файла не существует, просто создайте его.</p>
+
+<h4 id="автоматическая-подстановка-кода">Автоматическая подстановка кода</h4>
+
+<p>Когда я набираю команду, он автоматически предлагает дополнить команду. Например, я набираю несколько первых букв команды, он подставляет мне вариант команды, и я нажимаю TAB чтобы дополнить команду.Если вы нажмете клавишу TAB два раза, то у вас будет список доступных команд с этими первыми буквами.</p>
+
+<p>Вы можете выбрать перечисленные команды из списка, используя клавиши со стрелками вверх/вниз. Для того чтобы выбрать команду, которую вы хотите запустить, просто нажмите клавишу со стрелкой вправо и нажмите ENTER, чтобы запустить ее.</p>
+
+<p>Вам больше не понадобится CTRL + R!</p>
+
+<p>Как вы уже знаете, в оболочке Bash, мы делаем обратный поиск, нажимая сочетание клавиш ctrl + r, для поиска команд которые мы набирали ранее. Но это не обязательно в Fish.</p>
+
+<h4 id="веб-конфигурация">Веб-конфигурация</h4>
+
+<p>Это еще одна интересная особенность Fish. Мы можем установить наши цвета, просмотреть функции, переменные, историю, привязки клавиш с веб-страницы.</p>
+
+<h4 id="чтобы-запустить-интерфейс-веб-конфигурации-просто-введите">Чтобы запустить интерфейс веб-конфигурации, просто введите:</h4>
+
+<ul>
+  <li>fish_config</li>
+</ul>
+
+<p>На этой странице, вы можете изменять цветовую схему по вашему желанию, также доступны и другие функции, с которыми вы можете ознакомится самостоятельно.</p>
+
+<p>После окончания редактирования, не закрывая страницу, нажмите в терминале клавишу Enter, чтобы изменения вступили в силу.
+Отключить приветствие</p>
+
+<p>По умолчанию, при запуске, оболочка приветствует вас (Добро пожаловать в fish, дружественную интерактивную оболочку). Если вы не хотите видеть это сообщение, вы можете отключить его. Для этого отредактируйте файл конфигурации:</p>
+
+<ul>
+  <li>nano ~/.config/fish/config.fish</li>
+</ul>
+
+<p>Добавьте следующую строку:</p>
+
+<ul>
+  <li>set -g -x fish_greeting ‘’</li>
+</ul>
+
+<p>Вместо отключения приветствия, вы также можете установить любое приветственное сообщение.</p>
+
+<p>Например</p>
+
+<ul>
+  <li>set -g -x fish_greeting ‘Добро пожаловать LinuxTheBest’</li>
+</ul>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[#fish #shell]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/fish.jpg" /><media:content medium="image" url="http://localhost:4000/assets/fish.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">zsh</title><link href="http://localhost:4000/blog/2022/11/16/zsh.html" rel="alternate" type="text/html" title="zsh" /><published>2022-11-16T00:00:00+12:00</published><updated>2022-11-16T00:00:00+12:00</updated><id>http://localhost:4000/blog/2022/11/16/zsh</id><content type="html" xml:base="http://localhost:4000/blog/2022/11/16/zsh.html"><![CDATA[<h4 id="чем-zsh-лучше-bash">Чем ZSH лучше Bash?</h4>
+
+<ul>
+  <li>
+    <p>Автоматический cd: просто введите имя каталога</p>
+  </li>
+  <li>
+    <p>Рекурсивное расширение пути: например, «<strong>/u/lo/b</strong>» заменяется на «<strong>/usr/local/bin</strong>»</p>
+  </li>
+  <li>
+    <p>Исправление орфографии и приблизительное завершение: если вы допустили незначительную ошибку 
+ при вводе имени каталога, <strong>ZSH</strong> исправит её за вас.</p>
+  </li>
+  <li>
+    <p>Поддержка плагинов и тем: <strong>ZSH</strong> включает множество различных фреймворков плагинов.</p>
+  </li>
+</ul>
+
+<h4 id="установить">Установить:</h4>
+
+<ul>
+  <li><strong><em>sudo apt install zsh</em></strong></li>
+</ul>
+
+<h4 id="для-запуска-командной-оболочки-выполните-такую-команду">Для запуска командной оболочки выполните такую команду:</h4>
+
+<ul>
+  <li><strong><em>zsh</em></strong></li>
+</ul>
+
+<h4 id="сохранение-настроек">СОХРАНЕНИЕ НАСТРОЕК</h4>
+
+<p>Когда завершите, возвращайтесь в главное меню. Там, для сохранения всех изменений нажмите <strong>0</strong>
+(ноль). Утилита предупредит, что в конфигурационный файл были добавлены строки настройки и 
+ редактировать их не стоит, можно редактировать только то, что до или после них. Если же вы 
+захотите исправить что-то в них, снова запустите команду <strong>zsh-newuser-install</strong>.</p>
+
+<h4 id="установка-oh-my-zsh">УСТАНОВКА OH MY ZSH</h4>
+
+<p>Если всего этого вам мало, то можно установить скрипт <strong><em>oh my zsh</em></strong>, который реализует множество 
+ дополнительных возможностей в zsh. Тут можно выбирать различные темы приглашения, добавлять 
+ плагины, например, git, добавлены различные возможности автодополнения и многое другое. Для 
+установки этого скрипта выполните в терминале:</p>
+
+<ul>
+  <li><code>curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh </code></li>
+</ul>
+
+<p>Но для работы тем надо установить пакет шрифтов:</p>
+
+<ul>
+  <li><strong>sudo apt install fonts-powerline</strong></li>
+</ul>
+
+<p>Посмотреть как выглядит та или иная тема можно на этой странице. Чтобы выбрать тему откройте файл ~/.zshrc и пропишите имя темы в строчке ZSH_THEME. Именно так выполняется настройка oh my zsh. Мне, например, нравиться тема agnoster, поэтому:</p>
+
+<ul>
+  <li>vi ~/.zshrc</li>
+</ul>
+
+<p><em>ZSH_THEME=agnoster</em></p>
+
+<h4 id="по-дефолту-тема">По дефолту тема:</h4>
+
+<p><em>ZSH_THEME=”robbyrussell”</em></p>
+
+<h4 id="подсветка-синтаксиса">Подсветка синтаксиса.</h4>
+
+<p>Гораздо проще ориентироваться по содержимому терминала, когда разные части команд подсвечены 
+разными цветами. Например, директории будут подчеркиваться, а команды — выделяться цветом, 
+отличным от обычного текста.</p>
+
+<h4 id="установим-плагин-zsh-syntax-highlighting">Установим плагин <strong><em>zsh-syntax-highlighting</em></strong>:</h4>
+
+<ul>
+  <li><code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git 
+$ZSH_CUSTOM/plugins/zsh-syn</code></li>
+</ul>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[Чем ZSH лучше Bash?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/zsh.jpg" /><media:content medium="image" url="http://localhost:4000/assets/zsh.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>wget | Блог</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="wget" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Опции: -V (--version) - вывести версию программы -h (--help) - вывести справку -b (--background) - работать в фоновом режиме -o файл (--out-file) - указать лог файл -d (--debug) - включить режим отладки -v (--verbose) - выводить максимум информации о работе утилиты -q (--quiet) - выводить минимум информации о работе -i файл (--input-file) - прочитать URL из файла --force-html - читать файл указанный в предыдущем параметре как html -t (--tries) - количество попыток подключения к серверу -O файл (--output-document) - файл в который будут сохранены полученные данные -с (--continue) - продолжить ранее прерванную загрузку -S (--server-response) - вывести ответ сервера --spider - проверить работоспособность URL -T время (--timeout) - таймаут подключения к серверу --limit-rate - ограничить скорость загрузки -w (--wait) - интервал между запросами -Q (--quota) - максимальный размер загрузки -4 (--inet4only) - использовать протокол ipv4 -6 (--inet6only) - использовать протокол ipv6 -U (--user-agent)- строка USER AGENT отправляемая серверу -r (--recursive)- рекурсивная работа утилиты -l (--level) - глубина при рекурсивном сканировании -k (--convert-links) - конвертировать ссылки в локальные при загрузке страниц -P (--directory-prefix) - каталог, в который будут загружаться файлы -m (--mirror) - скачать сайт на локальную машину -p (--page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы ____________________________" />
+<meta property="og:description" content="Опции: -V (--version) - вывести версию программы -h (--help) - вывести справку -b (--background) - работать в фоновом режиме -o файл (--out-file) - указать лог файл -d (--debug) - включить режим отладки -v (--verbose) - выводить максимум информации о работе утилиты -q (--quiet) - выводить минимум информации о работе -i файл (--input-file) - прочитать URL из файла --force-html - читать файл указанный в предыдущем параметре как html -t (--tries) - количество попыток подключения к серверу -O файл (--output-document) - файл в который будут сохранены полученные данные -с (--continue) - продолжить ранее прерванную загрузку -S (--server-response) - вывести ответ сервера --spider - проверить работоспособность URL -T время (--timeout) - таймаут подключения к серверу --limit-rate - ограничить скорость загрузки -w (--wait) - интервал между запросами -Q (--quota) - максимальный размер загрузки -4 (--inet4only) - использовать протокол ipv4 -6 (--inet6only) - использовать протокол ipv6 -U (--user-agent)- строка USER AGENT отправляемая серверу -r (--recursive)- рекурсивная работа утилиты -l (--level) - глубина при рекурсивном сканировании -k (--convert-links) - конвертировать ссылки в локальные при загрузке страниц -P (--directory-prefix) - каталог, в который будут загружаться файлы -m (--mirror) - скачать сайт на локальную машину -p (--page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы ____________________________" />
+<link rel="canonical" href="http://localhost:4000/blog/2022/11/18/wget.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2022/11/18/wget.html" />
+<meta property="og:site_name" content="Блог" />
+<meta property="og:image" content="http://localhost:4000/assets/wget.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-18T00:00:00+12:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/wget.png" />
+<meta property="twitter:title" content="wget" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-18T00:00:00+12:00","datePublished":"2022-11-18T00:00:00+12:00","description":"Опции: -V (--version) - вывести версию программы -h (--help) - вывести справку -b (--background) - работать в фоновом режиме -o файл (--out-file) - указать лог файл -d (--debug) - включить режим отладки -v (--verbose) - выводить максимум информации о работе утилиты -q (--quiet) - выводить минимум информации о работе -i файл (--input-file) - прочитать URL из файла --force-html - читать файл указанный в предыдущем параметре как html -t (--tries) - количество попыток подключения к серверу -O файл (--output-document) - файл в который будут сохранены полученные данные -с (--continue) - продолжить ранее прерванную загрузку -S (--server-response) - вывести ответ сервера --spider - проверить работоспособность URL -T время (--timeout) - таймаут подключения к серверу --limit-rate - ограничить скорость загрузки -w (--wait) - интервал между запросами -Q (--quota) - максимальный размер загрузки -4 (--inet4only) - использовать протокол ipv4 -6 (--inet6only) - использовать протокол ipv6 -U (--user-agent)- строка USER AGENT отправляемая серверу -r (--recursive)- рекурсивная работа утилиты -l (--level) - глубина при рекурсивном сканировании -k (--convert-links) - конвертировать ссылки в локальные при загрузке страниц -P (--directory-prefix) - каталог, в который будут загружаться файлы -m (--mirror) - скачать сайт на локальную машину -p (--page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы ____________________________","headline":"wget","image":"http://localhost:4000/assets/wget.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2022/11/18/wget.html"},"url":"http://localhost:4000/blog/2022/11/18/wget.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Блог" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Блог</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">О Jekyll</a><a class="page-link" href="/feed/archive.html">Archive</a><a class="page-link" href="/feed/blog">Blog</a><a class="page-link" href="/feed/podcast">Podcast</a></div>
+      </nav></div>
+
+</header>
+
+
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header"><img src="/assets/wget.png" alt="" class="featured-image-post"><h1 class="post-title p-name" itemprop="name headline">wget</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-11-18T00:00:00+12:00" itemprop="datePublished">18.11.2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 id="опции">Опции:</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-V (--version) - вывести версию программы
+-h (--help) - вывести справку
+-b (--background) - работать в фоновом режиме
+-o файл (--out-file) - указать лог файл
+-d (--debug) - включить режим отладки
+-v (--verbose) - выводить максимум информации о работе утилиты
+-q (--quiet) - выводить минимум информации о работе
+-i файл (--input-file) - прочитать URL из файла
+--force-html - читать файл указанный в предыдущем параметре как html
+-t (--tries) - количество попыток подключения к серверу
+-O файл (--output-document) - файл в который будут сохранены полученные данные
+-с (--continue) - продолжить ранее прерванную загрузку
+-S (--server-response) - вывести ответ сервера
+--spider - проверить работоспособность URL
+-T время (--timeout) - таймаут подключения к серверу
+--limit-rate - ограничить скорость загрузки
+-w (--wait) - интервал между запросами
+-Q (--quota) - максимальный размер загрузки
+-4 (--inet4only) - использовать протокол ipv4
+-6 (--inet6only) - использовать протокол ipv6
+-U (--user-agent)- строка USER AGENT отправляемая серверу
+-r (--recursive)- рекурсивная работа утилиты
+-l (--level) - глубина при рекурсивном сканировании
+-k (--convert-links) - конвертировать ссылки в локальные при загрузке страниц
+-P (--directory-prefix) - каталог, в который будут загружаться файлы
+-m (--mirror) - скачать сайт на локальную машину
+-p (--page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы ____________________________
+</code></pre></div></div>
+
+<h4 id="1-загрузка-файла">1. Загрузка файла:</h4>
+
+<p>Команда <strong>wget linux</strong> скачает один файл и сохранит его в текущей директории. Во время загрузки мы 
+увидим прогресс, размер файла, дату его последнего изменения, а также скорость загрузки:</p>
+
+<blockquote>
+  <p>wget http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="2-сохранить-файл-с-другим-именем">2. Сохранить файл с другим именем:</h4>
+
+<p>Опция <strong><em>-О</em></strong> позволяет задать имя сохраняемому файлу, например, скачать файл <strong>wget</strong> с именем 
+<strong>wget.
+zip</strong>:</p>
+
+<blockquote>
+  <p>wget -O wget.zip http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="3-скачать-несколько-файлов">3. Скачать несколько файлов:</h4>
+
+<p>Вы можете скачать несколько файлов одной командой даже по разным протоколам, просто указав их 
+<strong>URL</strong>:</p>
+
+<blockquote>
+  <p>wget http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz ftp://ftp.gnu.org/gnu/wget/wget-1.10.1.tar.
+gz.sig</p>
+</blockquote>
+
+<h4 id="4-взять-url-из-файла">4. Взять <strong>URL</strong> из файла:</h4>
+
+<p>Вы можете сохранить несколько<strong>URL</strong> в файл, а затем загрузить их все, передав файл опции <strong><em>-i</em></strong>. 
+Например создадим файл tmp.txt, со ссылками для загрузки <strong>wget</strong>, а затем скачаем его:</p>
+
+<blockquote>
+  <p>wget -i /wget/tmp.txt</p>
+</blockquote>
+
+<h4 id="5-продолжить-загрузку">5. Продолжить загрузку:</h4>
+
+<p>Утилита <strong><em>wget linux</em></strong> рассчитана на работу в медленных и нестабильных сетях. Поэтому если вы 
+загружали большой файл, и во время загрузки было потеряно соединение, то вы можете скачать файл 
+<strong><em>wget</em></strong> с помощью опции <strong><em>-c</em></strong>.</p>
+
+<blockquote>
+  <p>wget -c http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="6-загрузка-файлов-в-фоне">6. Загрузка файлов в фоне:</h4>
+
+<p>Опция <strong><em>-b</em></strong> заставляет программу работать в фоновом режиме, весь вывод будет записан в лог файл, 
+для настройки лог файла используются специальные ключи wget:</p>
+
+<blockquote>
+  <p>wget -b -o ~/wget.log http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="7-ограничение-скорости-загрузки">7. Ограничение скорости загрузки:</h4>
+
+<p>Команда <strong>wget linux</strong> позволяет не только продолжать загрузку файлов, но и ограничивать скорость 
+загрузки. Для этого есть опция –limit-rate. Например ограничим скорость до 100 килобит:</p>
+
+<blockquote>
+  <p>wget –limit-rate=100k ftp://ftp.iinet.net.au/debian/debian-cd/8.4.0/amd64/iso-dvd/debian-8.4.
+0-amd64-DVD-1.iso</p>
+</blockquote>
+
+<h4 id="9-загрузить-и-выполнить">9. Загрузить и выполнить:</h4>
+
+<p>Вы, наверное, уже видели такие команды. wget позволяет сразу же выполнять скачанные скрипты:</p>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>wget -O - http://сайт/скрипт.sh</td>
+        <td>bash</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>Если опции <strong><em>-O</em></strong> не передать аргументов, то скачанный файл будет выведен в стандартный вывод, 
+затем 
+мы его можем перенаправить с интерпретатор bash, как показано выше.</p>
+
+<h4 id="10-сохранить-файл-в-папке">10. Сохранить файл в папке:</h4>
+
+<p>По умолчанию wget сохраняет файл в текущую папку, но это поведение очень легко изменить с 
+ помощью опции <strong><em>-P</em></strong>:</p>
+
+<blockquote>
+  <p>wget -P ~/Downloads/ http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</p>
+</blockquote>
+
+<h4 id="11-скачать-сайт">11. Скачать сайт:</h4>
+
+<p><strong>Wget</strong> позволяет не только скачивать одиночные файлы, но и целые сайты, чтобы вы могли их потом 
+просматривать в офлайне. Использование wget, чтобы скачать сайт в <strong>linux</strong> выглядит вот так:</p>
+
+<blockquote>
+  <p>wget –mirror -p –convert-links -P ./<Local-Folder> аддресс_сайт
+________________________________________________________________________________________________</Local-Folder></p>
+</blockquote>
+
+<p>Чтобы скачать сайт целиком с помощью wget нужно выполнить команду:</p>
+
+<blockquote>
+  <p>http://site.com/</p>
+</blockquote>
+
+<p>После выполнения данной команды в директорию site.com будет загружена локальная копия сайта 
+ <strong><em>http://site.com</em></strong>. Чтобы открыть главную страницу сайта нужно открыть файл<strong><em>index.html</em></strong>.
+Рассмотрим используемые параметры:</p>
+
+<blockquote>
+  <p>-r	—	указывает на то, что нужно рекурсивно переходить по ссылкам на сайте, чтобы скачивать 
+ страницы.</p>
+</blockquote>
+
+<blockquote>
+  <p>-k	—	используется для того, чтобы wget преобразовал все ссылки в скаченных файлах таким 
+ образом, чтобы по ним можно было переходить на локальном компьютере (в автономном режиме).</p>
+</blockquote>
+
+<blockquote>
+  <p>-p	—	указывает на то, что нужно загрузить все файлы, которые требуются для отображения 
+ страниц (изображения, css и т.д.).</p>
+</blockquote>
+
+<blockquote>
+  <p>-l	—	определяет максимальную глубину вложенности страниц, которые wget должен скачать (по 
+  умолчанию значение равно 5, в примере мы установили 7). В большинстве случаев сайты имеют 
+  страницы с большой степенью вложенности и wget может просто «закопаться», скачивая новые 
+ страницы. Чтобы этого не произошло можно использовать параметр -l.</p>
+</blockquote>
+
+<blockquote>
+  <p>-E	—	добавлять к загруженным файлам расширение .html.</p>
+</blockquote>
+
+<blockquote>
+  <p>-nc	—	при использовании данного параметра существующие файлы не будут перезаписаны. Это 
+ удобно, когда нужно продолжить загрузку сайта, прерванную в предыдущий раз.</p>
+</blockquote>
+
+
+  </div><a class="u-url" href="/blog/2022/11/18/wget.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Блог</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name"><!--Блог-->Петропавловс-
+            </li>
+            <li class="p-name">
+              Камчатский
+            </li>
+            <li class="p-name">
+              Резюме:
+            </li>
+            <li>
+              <a href="https://evgenymyblog.github.io/Resume/">Смотреть!</a>
+            </li>
+
+            <!--<li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li>-->
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+ <li><a href="https://vk.com/club215896332">My_VK</a></li>
+ <li><a href="https://rutube.ru/channel/23809417/videos/">Rutube</a></li>
+ <li><a href="https://evgenymyblog.github.io/">Старый Блог</a></li>
+</ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Пишите здесь статьи и заметки для вашего нового сайта. Вы можете отредактировать эту строку в _config.yml.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
