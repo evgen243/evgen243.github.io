@@ -19,10 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Блог
-email: your-email@example.com
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Пишите здесь статьи и заметки для вашего нового сайта. Вы можете отредактировать эту
-  строку в _config.yml.
+  Пишите здесь статьи и заметки для вашего нового сайта.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
