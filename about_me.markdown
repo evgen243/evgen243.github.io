@@ -1,6 +1,6 @@
 ---
 layout: page
-title: О себе
+title: Обо мне
 permalink: /about_me/
 ---
 
@@ -21,7 +21,7 @@ a {
     font-style: italic;
 }
 h1 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center
 }
 img {
