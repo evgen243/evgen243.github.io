@@ -24,9 +24,13 @@ h1 {
     font-size: 20px;
     text-align: center
 }
+img {
+    text-align: center; 
+    width: 50%;
+}
 </style>
 
-![](/assets/images/me.jpg){style="border-radius: 28px; border-radius: 28px;" width="300"}
+![](/assets/images/me.jpg)
 
 <p><strong><em>Родился 22 января 1962г.</em></strong></p>
 
