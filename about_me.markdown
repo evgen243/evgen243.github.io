@@ -27,6 +27,8 @@ h1 {
 img {
     text-align: center; 
     width: 30%;
+    border-radius: 28px;
+    border-radius: 28px;
 }
 </style>
 
