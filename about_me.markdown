@@ -21,7 +21,7 @@ a {
     font-style: italic;
 }
 h1 {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center
 }
 img {
