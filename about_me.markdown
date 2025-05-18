@@ -26,7 +26,7 @@ h1 {
 }
 img {
     text-align: center; 
-    width: 50%;
+    width: 30%;
 }
 </style>
 
